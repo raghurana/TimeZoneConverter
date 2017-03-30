@@ -43,7 +43,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(12, 56);
+            this.label1.Location = new System.Drawing.Point(32, 56);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(57, 13);
             this.label1.TabIndex = 0;
@@ -54,14 +54,14 @@
             this.label2.AutoSize = true;
             this.label2.Location = new System.Drawing.Point(12, 86);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(29, 13);
+            this.label2.Size = new System.Drawing.Size(77, 13);
             this.label2.TabIndex = 1;
-            this.label2.Text = "UTC";
+            this.label2.Text = "UTC ISO-8601";
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(277, 26);
+            this.label3.Location = new System.Drawing.Point(294, 27);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(52, 13);
             this.label3.TabIndex = 3;
@@ -70,7 +70,7 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(72, 26);
+            this.label4.Location = new System.Drawing.Point(89, 27);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(55, 13);
             this.label4.TabIndex = 2;
@@ -78,35 +78,35 @@
             // 
             // startTimeMelbTextBox
             // 
-            this.startTimeMelbTextBox.Location = new System.Drawing.Point(75, 53);
+            this.startTimeMelbTextBox.Location = new System.Drawing.Point(92, 54);
             this.startTimeMelbTextBox.Name = "startTimeMelbTextBox";
             this.startTimeMelbTextBox.Size = new System.Drawing.Size(199, 20);
             this.startTimeMelbTextBox.TabIndex = 4;
             // 
             // endTimeMelbTextBox
             // 
-            this.endTimeMelbTextBox.Location = new System.Drawing.Point(280, 53);
+            this.endTimeMelbTextBox.Location = new System.Drawing.Point(297, 54);
             this.endTimeMelbTextBox.Name = "endTimeMelbTextBox";
             this.endTimeMelbTextBox.Size = new System.Drawing.Size(199, 20);
             this.endTimeMelbTextBox.TabIndex = 5;
             // 
             // endTimeUtcTextBox
             // 
-            this.endTimeUtcTextBox.Location = new System.Drawing.Point(280, 79);
+            this.endTimeUtcTextBox.Location = new System.Drawing.Point(297, 80);
             this.endTimeUtcTextBox.Name = "endTimeUtcTextBox";
             this.endTimeUtcTextBox.Size = new System.Drawing.Size(199, 20);
             this.endTimeUtcTextBox.TabIndex = 7;
             // 
             // startTimeUtcTextBox
             // 
-            this.startTimeUtcTextBox.Location = new System.Drawing.Point(75, 79);
+            this.startTimeUtcTextBox.Location = new System.Drawing.Point(92, 80);
             this.startTimeUtcTextBox.Name = "startTimeUtcTextBox";
             this.startTimeUtcTextBox.Size = new System.Drawing.Size(199, 20);
             this.startTimeUtcTextBox.TabIndex = 6;
             // 
             // convertToUtcButton
             // 
-            this.convertToUtcButton.Location = new System.Drawing.Point(485, 51);
+            this.convertToUtcButton.Location = new System.Drawing.Point(502, 52);
             this.convertToUtcButton.Name = "convertToUtcButton";
             this.convertToUtcButton.Size = new System.Drawing.Size(129, 23);
             this.convertToUtcButton.TabIndex = 8;
@@ -116,7 +116,7 @@
             // 
             // convertToMelbButton
             // 
-            this.convertToMelbButton.Location = new System.Drawing.Point(485, 77);
+            this.convertToMelbButton.Location = new System.Drawing.Point(502, 78);
             this.convertToMelbButton.Name = "convertToMelbButton";
             this.convertToMelbButton.Size = new System.Drawing.Size(129, 23);
             this.convertToMelbButton.TabIndex = 9;
@@ -128,7 +128,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(643, 129);
+            this.ClientSize = new System.Drawing.Size(649, 114);
             this.Controls.Add(this.convertToMelbButton);
             this.Controls.Add(this.convertToUtcButton);
             this.Controls.Add(this.endTimeUtcTextBox);
